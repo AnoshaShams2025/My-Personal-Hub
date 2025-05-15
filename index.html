@@ -1,139 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" >
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viweport" content="width=device-width, initial-scale=1.0">
-        <title> RAYNOVA </title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RayNova Design Hub</title>
+</head>
 
-    <body> 
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html"> Home </a></li>
-                    <li><a href="about-me.html"> About </a></li>
-                    <li><a href="contact.html"> Contact </a></li>
-                    <li><a href="gallary.html"> Gallary </a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <div class="photo-row">
-            <div class="photo-container">
-              <img src="LOGO.png" alt="RAYNOVA">
-              <div class="caption"> RAYNOVA </div>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="photo-row">
+        <div class="photo-container">
+            <img src="LOGO.png" alt="RayNova Logo">
+            <div class="caption">RayNova Design Hub</div>
+        </div>
+    </div>
+
+    <main>
+        <section id="home">
+            <h1>آغاز خلاقیت‌ها - Where Creativity Begins</h1>
+            <p style="text-align: center;">We are <strong>RayNova</strong> — a bold, creative design hub dedicated to turning your ideas into impactful visuals.</p>
+        </section>
+
+        <section id="about">
+            <h2>Who We Are</h2>
+            <p>RayNova began with a small group of passionate designers, united by a shared vision: to create unique, personalized designs that inspire. Our mission is to blend creativity, speed, and precision to craft designs that speak louder than words.</p>
+            <ul>
+                <li><strong>Vision:</strong> To lead design innovation in the region.</li>
+                <li><strong>Mission:</strong> Deliver creative, fast, and personal design solutions.</li>
+                <li><strong>Values:</strong> Creativity, Speed, Personalization</li>
+            </ul>
+        </section>
+
+        <section id="services">
+            <h2>What We Do</h2>
+            <ul>
+                <li><strong>Logo & Branding:</strong> Memorable identities that define your business.</li>
+                <li><strong>Social Media Posts:</strong> Visually engaging content for Instagram, Facebook, and more.</li>
+                <li><strong>Posters & Flyers:</strong> Eye-catching promotional materials.</li>
+                <li><strong>UI/UX Design:</strong> Clean and modern interfaces for websites and apps.</li>
+                <li><strong>Motion Graphics:</strong> Animated visual storytelling (optional).</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Our Work</h2>
+            <p style="text-align: center;">Here’s a glimpse of what we’ve created.</p>
+            <div class="photo-row">
+                <div class="photo-container">
+                    <img src="logo1.jpg" alt="Logo Design">
+                    <div class="caption">Logo Design</div>
+                </div>
+                <div class="photo-container">
+                    <img src="poster1.jpg" alt="Poster Design">
+                    <div class="caption">Poster</div>
+                </div>
             </div>
-          </div>
-          <hr>
-        <style>
-            body {
-              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              background-color: #f9f9f9;
-              margin: 0;
-              padding: 0;
-              color: #333;
-            }
-          
-            header {
-              background-color: #0bcdf4;
-              padding: 20px 0;
-            }
-          
-            nav ul {
-              list-style: none;
-              display: flex;
-              justify-content: center;
-              margin: 0;
-              padding: 0;
-            }
-          
-            nav ul li {
-              margin: 0 15px;
-            }
-          
-            nav ul li a {
-              color: white;
-              text-decoration: none;
-              font-weight: bold;
-            }
-          
-            nav ul li a:hover {
-              text-decoration: underline;
-            }
-          
-            main {
-              padding: 40px 20px;
-              max-width: 800px;
-              margin: auto;
-            }
-          
-            h1, h2 {
-              text-align: center;
-              color: #0bcdf4 ;
-            }
-          
-            footer {
-              background-color: #0bcdf4;
-              color: white;
-              text-align: center;
-              padding: 10px 0;
-              position: fixed;
-              width: 100%;
-              bottom: 0;
-            }
-            .photo-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin: 20px 0;
-}
+        </section>
 
-.photo-container {
-  text-align: center;
-  max-width: 250px;
-}
+        <section id="contact">
+            <h2>Let’s Talk</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
 
-.photo-container img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease;
-}
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
 
-.photo-container img:hover {
-  transform: scale(1.05);
-}
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
 
-.caption {
-  margin-top: 10px;
-  font-style: Alice;
-  color: #555;
-}
-        </style>   
-               
-        <main> 
-            <section>
-                <h1>Welcome to my Personal Hub</h1>
-                <p> Welcome to my personal website where I share all about myself, my interests, goals, and a little more! Enjoy browsing!</p>
-            </section>
-            <section>
-                <h2>Quick Facts About Me:</h2>
-                    <ul>
-                        <li>I love exploring new tech and gadgets. </li>
-                        <li>I'm passionate about Graphic Desing. </li>
-                        <li>I'm learning new languages in my free time.</li>
-                    </ul>
-            </section>
-            <section>
-                <h2> My favorite Quote: </h2>
-                <p> "The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt </p>
-            </section>
-        
-        </main>
-        <footer>
-            <p>&copy; 2025 My Personal Info Hub.</p>
-        </footer>
-    </body>
+                <input type="submit" value="Send">
+            </form>
+            <p>Email: info@raynova.com</p>
+            <p>WhatsApp: +93 XXX XXX XXX</p>
+            <p>Follow us: 
+                <a href="#">Instagram</a> | 
+                <a href="#">Behance</a> | 
+                <a href="#">Telegram</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 RayNova Design Hub. All rights reserved.</p>
+        <p>
+            <a href="#home" style="color:white; text-decoration:none; margin:0 10px;">Home</a>
+            <a href="#about" style="color:white; text-decoration:none; margin:0 10px;">About</a>
+            <a href="#contact" style="color:white; text-decoration:none; margin:0 10px;">Contact</a>
+        </p>
+    </footer>
+</body>
 </html>
